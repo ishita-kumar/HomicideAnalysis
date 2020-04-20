@@ -20,7 +20,7 @@
 
 /* Container */
 #projects .projects-container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   width: 100%;
   padding: 12rem 5rem 8rem;
@@ -77,7 +77,7 @@
 }
 
 #projects .project .project-link:hover > img {
-  filter: saturate(1);
+  filter: saturate(1.2);
   transform: scale(1.05);
 }
 

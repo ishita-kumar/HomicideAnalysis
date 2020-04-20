@@ -108,10 +108,11 @@
   width: fit-content;
   position: absolute;
   right: 0;
-  top: 50%;
-  right: 25%;
+  top: 40%;
+  right: 55%;
+  left:20%;
   opacity: 0;
-  transform: translate(0, -50%);
+  transform: translate(0, -70%);
   animation: text-fade-in 1000ms 800ms forwards;
 }
 
@@ -126,9 +127,9 @@
 }
 
 #welcome-section .container h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: normal;
-  font-style: italic;
+  /* font-style: italic; */
   color: #fafafa;
   line-height: 3rem;
 }
