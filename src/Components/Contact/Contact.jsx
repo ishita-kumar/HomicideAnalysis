@@ -13,34 +13,55 @@ import Paper from '@material-ui/core/Paper';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-  },
+   
+   },
   paper: {
-    height: 140,
-    width: 100,
+    padding: theme.spacing(0),
+    textAlign: 'center',
+    marginLeft:"40px",
+    marginRight:"40px",
+    alignItems: 'center',
+        height:"340px",
+    // width:"140px",
   },
-  control: {
-    padding: theme.spacing(2),
-  },
-}));
-
   
+}));
 
 const Contact = props => {
   const [spacing, setSpacing] = React.useState(2);
   const classes = useStyles();
 
-  const handleChange = (event) => {
-    setSpacing(Number(event.target.value));
-  };
+
   return (
     <section id="contact">
-      <Grid container spacing={3}>
-  <Grid container item xs={12} spacing={3}>
-    <Ishita/>
-    <Ishita/>
-    <Ishita/>
-  </Grid>
+      <Grid container spacing={0} spacing={0}
  
+  alignItems="center"
+  justify="center">
+      <Grid item xl={3} md={3} sm={12} xs={12}>
+      <Paper className={classes.paper}>  <Ishita />
+      </Paper>
+    
+        </Grid>
+        <Grid item xl={3} md={3} sm={12} xs={12}>
+      <Paper className={classes.paper}>  <Ishita />
+      </Paper>
+    
+        </Grid>
+        <Grid item xl={3} md={3} sm={12} xs={12}>
+      <Paper className={classes.paper}>  <Ishita />
+      </Paper>
+    
+        </Grid>
+        {/* <Grid item xl={3} md={3} sm={12} xs={12}>
+      <Ishita/>
+ 
+        </Grid>
+        <Grid item xl={3} md={3} sm={12} xs={12}>
+        <Ishita/>
+
+        </Grid> */}
+
 </Grid>
    {/* <Ishita/> */}
     </section>

@@ -7,15 +7,18 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    // maxWidth: 245,
   },
   media: {
-    height: 140,
-    paddingLeft:'50px'
+    height: "200px",
+    paddingLeft:"10px",
+    paddingRight:'50px'
   },
+  
 });
 
 export default function Ishita() {
@@ -31,20 +34,20 @@ export default function Ishita() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Ishita Kumar
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+           Full Stack Web Developer | 
+           Sushi lover
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
+          <GitHubIcon/>
         </Button>
         <Button size="small" color="primary">
-          Learn More
+        <LinkedInIcon/>
         </Button>
       </CardActions>
     </Card>
