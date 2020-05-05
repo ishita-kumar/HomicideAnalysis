@@ -11,7 +11,7 @@ const Projects = props => {
         <div className="heading">
           <h3 className="title">Reports</h3>
           <p className="separator" />
-         
+        
         </div>
         <div className="projects-wrapper">
           <Project
