@@ -1,4 +1,4 @@
-[{"_id": "District of Columbia", "CrimeTypes": [{"CrimeType": "Manslaughter by Negligence", "CountForEachType": 5}, {"CrimeType": "Murder or Manslaughter", "CountForEachType": 7110}], "CountPerState": 7115},
+{"_id": "District of Columbia", "CrimeTypes": [{"CrimeType": "Manslaughter by Negligence", "CountForEachType": 5}, {"CrimeType": "Murder or Manslaughter", "CountForEachType": 7110}], "CountPerState": 7115},
 {"_id": "North Dakota", "CrimeTypes": [{"CrimeType": "Manslaughter by Negligence", "CountForEachType": 5}, {"CrimeType": "Murder or Manslaughter", "CountForEachType": 303}], "CountPerState": 308},
 {"_id": "Rhodes Island", "CrimeTypes": [{"CrimeType": "Manslaughter by Negligence", "CountForEachType": 15}, {"CrimeType": "Murder or Manslaughter", "CountForEachType": 1196}], "CountPerState": 1211},
 {"_id": "North Carolina", "CrimeTypes": [{"CrimeType": "Murder or Manslaughter", "CountForEachType": 19936}, {"CrimeType": "Manslaughter by Negligence", "CountForEachType": 454}], "CountPerState": 20390},
@@ -49,4 +49,3 @@
 {"_id": "New Jersey", "CrimeTypes": [{"CrimeType": "Murder or Manslaughter", "CountForEachType": 14033}, {"CrimeType": "Manslaughter by Negligence", "CountForEachType": 99}], "CountPerState": 14132},
 {"_id": "Utah", "CrimeTypes": [{"CrimeType": "Manslaughter by Negligence", "CountForEachType": 54}, {"CrimeType": "Murder or Manslaughter", "CountForEachType": 1979}], "CountPerState": 2033},
 {"_id": "Indiana", "CrimeTypes": [{"CrimeType": "Murder or Manslaughter", "CountForEachType": 11315}, {"CrimeType": "Manslaughter by Negligence", "CountForEachType": 148}], "CountPerState": 11463}
-]
