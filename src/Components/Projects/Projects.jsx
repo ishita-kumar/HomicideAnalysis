@@ -11,14 +11,7 @@ const Projects = props => {
         <div className="heading">
           <h3 className="title">Reports</h3>
           <p className="separator" />
-          {/* <p className="subtitle">
-
-            <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
-              freeCodeCamp
-            </a>
-            , where I've been coding for almost 7 months non-stop until I completed all the projects
-            required to get my Full-Stack Developer certification.
-          </p> */}
+         
         </div>
         <div className="projects-wrapper">
           <Project
