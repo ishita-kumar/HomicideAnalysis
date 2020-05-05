@@ -26,11 +26,14 @@ mydoc = Crime.aggregate([
         #     },
         # },
         "CountPerYear": { "$sum": "$WeaponTypecount" }
-    }}
+    }}, 
+    {
+        "$sort" : {"_id":1} 
+    }
 ])
 with open('YearWiseGunViolence.json', 'w') as file:
         file.write('[')
         for document in mydoc:
-            file.write(json.dumps(document))
+            file.write(str(document['CountPerYear']))
             file.write(',\n')
         file.write(']')
