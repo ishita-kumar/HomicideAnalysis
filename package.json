@@ -12,6 +12,7 @@
     "chart.js": "^2.9.3",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
+    "react-google-charts": "^3.0.15",
     "react-router-dom": "^5.1.2",
     "react-scripts": "2.0.5"
   },

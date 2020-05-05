@@ -10,7 +10,9 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
-import Layout from "../Graphs/Graph1"
+import Layout from "../Graphs/Graph1";
+import Mapgraph from "../Graphs/Mapgraph"
+
 const Project = props => {
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
@@ -66,8 +68,8 @@ const Project = props => {
   return (
     <div className="project">
 
-      <a className="project-link" h        See The Visaulization
-href={link} target="_blank" rel="noopener noreferrer">
+      <a className="project-link" h See The Visaulization
+        href={link} target="_blank" rel="noopener noreferrer">
         <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} />
       </a>
       <div className="project-details">
@@ -92,15 +94,16 @@ href={link} target="_blank" rel="noopener noreferrer">
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
               Modal title
         </DialogTitle>
-        <DialogContent dividers>
-         
-          <Typography gutterBottom>
-          
-<Layout></Layout>          </Typography>
-        </DialogContent>
-        <DialogActions>
-          <Button autoFocus onClick={handleClose} color="primary">
-            Exit
+            <DialogContent dividers>
+
+              <Typography gutterBottom>
+              <Mapgraph/>
+                {/* <Layout></Layout>       */}
+                    </Typography>
+            </DialogContent>
+            <DialogActions>
+              <Button autoFocus onClick={handleClose} color="primary">
+                Exit
           </Button>
             </DialogActions>
           </Dialog>
