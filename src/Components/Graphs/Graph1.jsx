@@ -3,7 +3,7 @@
 
 import React, { Component } from 'react';
 import years from './Data/YearAscendingOrder.json';
-import victimsByRace from './Data/VictimByRace.json';
+import map from './Data/VictimByRace.json';
 var Chart = require("chart.js");
 
 class Layout extends React.Component {
@@ -12,16 +12,23 @@ class Layout extends React.Component {
   }
   componentDidMount() {
     const node = this.node;
-
-    var myChart = new Chart(node, {
+    var dataset = [];
+    var colors = ["#caf270", "#2e5468", "#45c490", "#2e5468", "#008d93" ]
+    var c=0;
+    for(var key in map){
+      dataset.push({
+          label: key,
+          backgroundColor: colors[c++],
+          data: map[key]
+      });
+      
+  }
+  console.log(dataset);
+  var myChart = new Chart(node, {
       type: "bar",
       data: {
-        labels: years['Years'],      
-          datasets: [{
-              label: 'Employee',
-              backgroundColor: "#caf270",
-              data: [12, 59, 5, 56, 58,12, 59, 87, 45],
-          }]
+        labels: years['Years'], 
+        datasets: dataset
       },
       options: {
         tooltips: {
