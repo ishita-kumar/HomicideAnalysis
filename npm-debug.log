@@ -1,45 +1,495 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info lifecycle portfolio@0.1.0~prestart: portfolio@0.1.0
-6 silly lifecycle portfolio@0.1.0~prestart: no script for prestart, continuing
-7 info lifecycle portfolio@0.1.0~start: portfolio@0.1.0
-8 verbose lifecycle portfolio@0.1.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle portfolio@0.1.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/home/kasturi/HomicideAnalysis/node_modules/.bin:/home/kasturi/.local/bin:/home/kasturi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-10 verbose lifecycle portfolio@0.1.0~start: CWD: /home/kasturi/HomicideAnalysis
-11 silly lifecycle portfolio@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
-12 silly lifecycle portfolio@0.1.0~start: Returned: code: 1  signal: null
-13 info lifecycle portfolio@0.1.0~start: Failed to exec start script
-14 verbose stack Error: portfolio@0.1.0 start: `react-scripts start`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
-14 verbose stack     at emitTwo (events.js:126:13)
-14 verbose stack     at EventEmitter.emit (events.js:214:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
-14 verbose stack     at emitTwo (events.js:126:13)
-14 verbose stack     at ChildProcess.emit (events.js:214:7)
-14 verbose stack     at maybeClose (internal/child_process.js:925:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
-15 verbose pkgid portfolio@0.1.0
-16 verbose cwd /home/kasturi/HomicideAnalysis
-17 error Linux 5.3.0-51-generic
-18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
-19 error node v8.10.0
-20 error npm  v3.5.2
-21 error code ELIFECYCLE
-22 error portfolio@0.1.0 start: `react-scripts start`
-22 error Exit status 1
-23 error Failed at the portfolio@0.1.0 start script 'react-scripts start'.
-23 error Make sure you have the latest version of node.js and npm installed.
-23 error If you do, this is most likely a problem with the portfolio package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     react-scripts start
-23 error You can get information on how to open an issue for this project with:
-23 error     npm bugs portfolio
-23 error Or if that isn't available, you can get their info via:
-23 error     npm owner ls portfolio
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @material-ui/core
+20 silly mapToRegistry name @material-ui/core
+21 silly mapToRegistry scope (from package name) @material-ui
+22 verbose mapToRegistry no registry URL found in name for scope @material-ui
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2fcore
+26 silly fetchNamedPackageData @material-ui/icons
+27 silly mapToRegistry name @material-ui/icons
+28 silly mapToRegistry scope (from package name) @material-ui
+29 verbose mapToRegistry no registry URL found in name for scope @material-ui
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2ficons
+33 silly fetchNamedPackageData chart.js
+34 silly mapToRegistry name chart.js
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+38 silly fetchNamedPackageData react
+39 silly mapToRegistry name react
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/react
+43 silly fetchNamedPackageData react-dom
+44 silly mapToRegistry name react-dom
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+48 silly fetchNamedPackageData react-google-charts
+49 silly mapToRegistry name react-google-charts
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/react-google-charts
+53 silly fetchNamedPackageData react-router-dom
+54 silly mapToRegistry name react-router-dom
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry uri https://registry.npmjs.org/react-router-dom
+58 silly fetchNamedPackageData react-scripts
+59 silly mapToRegistry name react-scripts
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/react-scripts
+63 verbose request uri https://registry.npmjs.org/chart.js
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 7:32:30 PM
+66 verbose request id 390fb332a7455a2e
+67 verbose etag W/"01bcfa09ed199686dbcd25344c6e5c1b"
+68 verbose lastModified Thu, 12 Mar 2020 15:43:18 GMT
+69 http request GET https://registry.npmjs.org/chart.js
+70 verbose request uri https://registry.npmjs.org/@material-ui%2ficons
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 7:32:30 PM
+73 verbose etag W/"224b91240f64340b61ab9428386d0844"
+74 verbose lastModified Sun, 02 Feb 2020 11:43:32 GMT
+75 http request GET https://registry.npmjs.org/@material-ui%2ficons
+76 verbose request uri https://registry.npmjs.org/@material-ui%2fcore
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 7:32:30 PM
+79 verbose etag W/"b2e94056821e7562fddf9ecaf8f38127"
+80 verbose lastModified Mon, 04 May 2020 11:29:19 GMT
+81 http request GET https://registry.npmjs.org/@material-ui%2fcore
+82 verbose request uri https://registry.npmjs.org/react-router-dom
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 7:32:30 PM
+85 verbose etag W/"9341edaddfee889a9df59e371678fc80"
+86 verbose lastModified Tue, 05 May 2020 00:07:33 GMT
+87 http request GET https://registry.npmjs.org/react-router-dom
+88 verbose request uri https://registry.npmjs.org/react-google-charts
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 7:32:30 PM
+91 verbose etag W/"990280b36c2e1bf205e92a363d14d924"
+92 verbose lastModified Fri, 30 Aug 2019 16:03:47 GMT
+93 http request GET https://registry.npmjs.org/react-google-charts
+94 verbose request uri https://registry.npmjs.org/react-scripts
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 7:32:30 PM
+97 verbose etag W/"3cc0a43c0ba69911f1a2274287f07114"
+98 verbose lastModified Sat, 21 Mar 2020 00:00:34 GMT
+99 http request GET https://registry.npmjs.org/react-scripts
+100 verbose request uri https://registry.npmjs.org/react-dom
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 7:32:30 PM
+103 verbose etag W/"e09bcac930d4cf372dfc563410e4ae3d"
+104 verbose lastModified Mon, 04 May 2020 22:18:40 GMT
+105 http request GET https://registry.npmjs.org/react-dom
+106 verbose request uri https://registry.npmjs.org/react
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 7:32:30 PM
+109 verbose etag W/"d147a2a4712aa0a517cd757d0925adc2"
+110 verbose lastModified Mon, 04 May 2020 22:18:42 GMT
+111 http request GET https://registry.npmjs.org/react
+112 http 304 https://registry.npmjs.org/react-router-dom
+113 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'set-cookie':
+113 verbose headers    [ '__cfduid=d402ac5fac16e1b881af956c5ebbfa5751588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+113 verbose headers   'cf-ray': '58ee42d9de43040c-ORD',
+113 verbose headers   age: '1139',
+113 verbose headers   'cache-control': 'public, max-age=300',
+113 verbose headers   etag: '"9341edaddfee889a9df59e371678fc80"',
+113 verbose headers   'last-modified': 'Tue, 05 May 2020 00:07:33 GMT',
+113 verbose headers   vary: 'Accept-Encoding',
+113 verbose headers   'cf-cache-status': 'HIT',
+113 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+113 verbose headers   server: 'cloudflare',
+113 verbose headers   'cf-request-id': '0288c81c290000040c800bf200000001' }
+114 silly get cb [ 304,
+114 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+114 silly get     connection: 'keep-alive',
+114 silly get     'set-cookie':
+114 silly get      [ '__cfduid=d402ac5fac16e1b881af956c5ebbfa5751588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+114 silly get     'cf-ray': '58ee42d9de43040c-ORD',
+114 silly get     age: '1139',
+114 silly get     'cache-control': 'public, max-age=300',
+114 silly get     etag: '"9341edaddfee889a9df59e371678fc80"',
+114 silly get     'last-modified': 'Tue, 05 May 2020 00:07:33 GMT',
+114 silly get     vary: 'Accept-Encoding',
+114 silly get     'cf-cache-status': 'HIT',
+114 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+114 silly get     server: 'cloudflare',
+114 silly get     'cf-request-id': '0288c81c290000040c800bf200000001' } ]
+115 verbose etag https://registry.npmjs.org/react-router-dom from cache
+116 verbose get saving react-router-dom to /home/kasturi/.npm/registry.npmjs.org/react-router-dom/.cache.json
+117 http 304 https://registry.npmjs.org/chart.js
+118 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+118 verbose headers   connection: 'keep-alive',
+118 verbose headers   'set-cookie':
+118 verbose headers    [ '__cfduid=d53ef0d8fbf420209decf7174b98060ca1588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+118 verbose headers   'cf-ray': '58ee42d9d9d4e222-ORD',
+118 verbose headers   age: '1237',
+118 verbose headers   'cache-control': 'public, max-age=300',
+118 verbose headers   etag: '"01bcfa09ed199686dbcd25344c6e5c1b"',
+118 verbose headers   'last-modified': 'Thu, 12 Mar 2020 15:43:18 GMT',
+118 verbose headers   vary: 'Accept-Encoding',
+118 verbose headers   'cf-cache-status': 'HIT',
+118 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+118 verbose headers   server: 'cloudflare',
+118 verbose headers   'cf-request-id': '0288c81c290000e2229c947200000001' }
+119 silly get cb [ 304,
+119 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+119 silly get     connection: 'keep-alive',
+119 silly get     'set-cookie':
+119 silly get      [ '__cfduid=d53ef0d8fbf420209decf7174b98060ca1588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+119 silly get     'cf-ray': '58ee42d9d9d4e222-ORD',
+119 silly get     age: '1237',
+119 silly get     'cache-control': 'public, max-age=300',
+119 silly get     etag: '"01bcfa09ed199686dbcd25344c6e5c1b"',
+119 silly get     'last-modified': 'Thu, 12 Mar 2020 15:43:18 GMT',
+119 silly get     vary: 'Accept-Encoding',
+119 silly get     'cf-cache-status': 'HIT',
+119 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+119 silly get     server: 'cloudflare',
+119 silly get     'cf-request-id': '0288c81c290000e2229c947200000001' } ]
+120 verbose etag https://registry.npmjs.org/chart.js from cache
+121 verbose get saving chart.js to /home/kasturi/.npm/registry.npmjs.org/chart.js/.cache.json
+122 silly resolveWithNewModule react-router-dom@5.1.2 checking installable status
+123 silly cache add args [ 'react-router-dom@^5.1.2', null ]
+124 verbose cache add spec react-router-dom@^5.1.2
+125 silly cache add parsed spec Result {
+125 silly cache add   raw: 'react-router-dom@^5.1.2',
+125 silly cache add   scope: null,
+125 silly cache add   name: 'react-router-dom',
+125 silly cache add   rawSpec: '^5.1.2',
+125 silly cache add   spec: '>=5.1.2 <6.0.0',
+125 silly cache add   type: 'range' }
+126 silly addNamed react-router-dom@>=5.1.2 <6.0.0
+127 verbose addNamed ">=5.1.2 <6.0.0" is a valid semver range for react-router-dom
+128 silly addNameRange { name: 'react-router-dom',
+128 silly addNameRange   range: '>=5.1.2 <6.0.0',
+128 silly addNameRange   hasData: false }
+129 silly mapToRegistry name react-router-dom
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/react-router-dom
+133 verbose addNameRange registry:https://registry.npmjs.org/react-router-dom not in flight; fetching
+134 http 304 https://registry.npmjs.org/react-google-charts
+135 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+135 verbose headers   connection: 'keep-alive',
+135 verbose headers   'set-cookie':
+135 verbose headers    [ '__cfduid=deba3c6e1f8b7363cfdaa2d28a35c934a1588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+135 verbose headers   'cf-ray': '58ee42d9ff840410-ORD',
+135 verbose headers   age: '4184',
+135 verbose headers   'cache-control': 'public, max-age=300',
+135 verbose headers   etag: '"990280b36c2e1bf205e92a363d14d924"',
+135 verbose headers   'last-modified': 'Fri, 30 Aug 2019 16:03:47 GMT',
+135 verbose headers   vary: 'Accept-Encoding',
+135 verbose headers   'cf-cache-status': 'HIT',
+135 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+135 verbose headers   server: 'cloudflare',
+135 verbose headers   'cf-request-id': '0288c81c3d0000041070916200000001' }
+136 silly get cb [ 304,
+136 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+136 silly get     connection: 'keep-alive',
+136 silly get     'set-cookie':
+136 silly get      [ '__cfduid=deba3c6e1f8b7363cfdaa2d28a35c934a1588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+136 silly get     'cf-ray': '58ee42d9ff840410-ORD',
+136 silly get     age: '4184',
+136 silly get     'cache-control': 'public, max-age=300',
+136 silly get     etag: '"990280b36c2e1bf205e92a363d14d924"',
+136 silly get     'last-modified': 'Fri, 30 Aug 2019 16:03:47 GMT',
+136 silly get     vary: 'Accept-Encoding',
+136 silly get     'cf-cache-status': 'HIT',
+136 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+136 silly get     server: 'cloudflare',
+136 silly get     'cf-request-id': '0288c81c3d0000041070916200000001' } ]
+137 verbose etag https://registry.npmjs.org/react-google-charts from cache
+138 verbose get saving react-google-charts to /home/kasturi/.npm/registry.npmjs.org/react-google-charts/.cache.json
+139 http 304 https://registry.npmjs.org/react
+140 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'set-cookie':
+140 verbose headers    [ '__cfduid=df2509c6931dee4c6bc1b38d2c7a7de611588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+140 verbose headers   'cf-ray': '58ee42d9fff1c50c-ORD',
+140 verbose headers   age: '742',
+140 verbose headers   'cache-control': 'public, max-age=300',
+140 verbose headers   etag: '"d147a2a4712aa0a517cd757d0925adc2"',
+140 verbose headers   'last-modified': 'Mon, 04 May 2020 22:18:42 GMT',
+140 verbose headers   vary: 'Accept-Encoding',
+140 verbose headers   'cf-cache-status': 'HIT',
+140 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+140 verbose headers   server: 'cloudflare',
+140 verbose headers   'cf-request-id': '0288c81c3d0000c50cc71b9200000001' }
+141 silly get cb [ 304,
+141 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+141 silly get     connection: 'keep-alive',
+141 silly get     'set-cookie':
+141 silly get      [ '__cfduid=df2509c6931dee4c6bc1b38d2c7a7de611588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+141 silly get     'cf-ray': '58ee42d9fff1c50c-ORD',
+141 silly get     age: '742',
+141 silly get     'cache-control': 'public, max-age=300',
+141 silly get     etag: '"d147a2a4712aa0a517cd757d0925adc2"',
+141 silly get     'last-modified': 'Mon, 04 May 2020 22:18:42 GMT',
+141 silly get     vary: 'Accept-Encoding',
+141 silly get     'cf-cache-status': 'HIT',
+141 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+141 silly get     server: 'cloudflare',
+141 silly get     'cf-request-id': '0288c81c3d0000c50cc71b9200000001' } ]
+142 verbose etag https://registry.npmjs.org/react from cache
+143 verbose get saving react to /home/kasturi/.npm/registry.npmjs.org/react/.cache.json
+144 http 304 https://registry.npmjs.org/react-scripts
+145 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+145 verbose headers   connection: 'keep-alive',
+145 verbose headers   'set-cookie':
+145 verbose headers    [ '__cfduid=da0e1bcb7210cf95fea07151d1ec05eea1588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+145 verbose headers   'cf-ray': '58ee42d9fedd7fa8-ORD',
+145 verbose headers   age: '1991',
+145 verbose headers   'cache-control': 'public, max-age=300',
+145 verbose headers   etag: '"3cc0a43c0ba69911f1a2274287f07114"',
+145 verbose headers   'last-modified': 'Sat, 21 Mar 2020 00:00:34 GMT',
+145 verbose headers   vary: 'Accept-Encoding',
+145 verbose headers   'cf-cache-status': 'HIT',
+145 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+145 verbose headers   server: 'cloudflare',
+145 verbose headers   'cf-request-id': '0288c81c3f00007fa8360e9200000001' }
+146 silly get cb [ 304,
+146 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+146 silly get     connection: 'keep-alive',
+146 silly get     'set-cookie':
+146 silly get      [ '__cfduid=da0e1bcb7210cf95fea07151d1ec05eea1588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+146 silly get     'cf-ray': '58ee42d9fedd7fa8-ORD',
+146 silly get     age: '1991',
+146 silly get     'cache-control': 'public, max-age=300',
+146 silly get     etag: '"3cc0a43c0ba69911f1a2274287f07114"',
+146 silly get     'last-modified': 'Sat, 21 Mar 2020 00:00:34 GMT',
+146 silly get     vary: 'Accept-Encoding',
+146 silly get     'cf-cache-status': 'HIT',
+146 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+146 silly get     server: 'cloudflare',
+146 silly get     'cf-request-id': '0288c81c3f00007fa8360e9200000001' } ]
+147 verbose etag https://registry.npmjs.org/react-scripts from cache
+148 verbose get saving react-scripts to /home/kasturi/.npm/registry.npmjs.org/react-scripts/.cache.json
+149 http 304 https://registry.npmjs.org/@material-ui%2fcore
+150 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+150 verbose headers   connection: 'keep-alive',
+150 verbose headers   'set-cookie':
+150 verbose headers    [ '__cfduid=dae59d2b374641b10c08ee2ab1d4061551588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+150 verbose headers   'cf-ray': '58ee42d9f8980380-ORD',
+150 verbose headers   age: '1498',
+150 verbose headers   'cache-control': 'public, max-age=300',
+150 verbose headers   etag: '"b2e94056821e7562fddf9ecaf8f38127"',
+150 verbose headers   'last-modified': 'Mon, 04 May 2020 11:29:19 GMT',
+150 verbose headers   vary: 'Accept-Encoding',
+150 verbose headers   'cf-cache-status': 'HIT',
+150 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+150 verbose headers   server: 'cloudflare',
+150 verbose headers   'cf-request-id': '0288c81c3d00000380a037d200000001' }
+151 silly get cb [ 304,
+151 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+151 silly get     connection: 'keep-alive',
+151 silly get     'set-cookie':
+151 silly get      [ '__cfduid=dae59d2b374641b10c08ee2ab1d4061551588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+151 silly get     'cf-ray': '58ee42d9f8980380-ORD',
+151 silly get     age: '1498',
+151 silly get     'cache-control': 'public, max-age=300',
+151 silly get     etag: '"b2e94056821e7562fddf9ecaf8f38127"',
+151 silly get     'last-modified': 'Mon, 04 May 2020 11:29:19 GMT',
+151 silly get     vary: 'Accept-Encoding',
+151 silly get     'cf-cache-status': 'HIT',
+151 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+151 silly get     server: 'cloudflare',
+151 silly get     'cf-request-id': '0288c81c3d00000380a037d200000001' } ]
+152 verbose etag https://registry.npmjs.org/@material-ui%2fcore from cache
+153 verbose get saving @material-ui/core to /home/kasturi/.npm/registry.npmjs.org/_40material-ui_252fcore/.cache.json
+154 http 304 https://registry.npmjs.org/@material-ui%2ficons
+155 verbose headers { date: 'Tue, 05 May 2020 23:32:30 GMT',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'set-cookie':
+155 verbose headers    [ '__cfduid=de67b2bfb313bf6c267266270015fc9841588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+155 verbose headers   'cf-ray': '58ee42d9db12fd86-ORD',
+155 verbose headers   age: '6852',
+155 verbose headers   'cache-control': 'public, max-age=300',
+155 verbose headers   etag: '"224b91240f64340b61ab9428386d0844"',
+155 verbose headers   'last-modified': 'Sun, 02 Feb 2020 11:43:32 GMT',
+155 verbose headers   vary: 'Accept-Encoding',
+155 verbose headers   'cf-cache-status': 'HIT',
+155 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+155 verbose headers   server: 'cloudflare',
+155 verbose headers   'cf-request-id': '0288c81c280000fd86bc217200000001' }
+156 silly get cb [ 304,
+156 silly get   { date: 'Tue, 05 May 2020 23:32:30 GMT',
+156 silly get     connection: 'keep-alive',
+156 silly get     'set-cookie':
+156 silly get      [ '__cfduid=de67b2bfb313bf6c267266270015fc9841588721550; expires=Thu, 04-Jun-20 23:32:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+156 silly get     'cf-ray': '58ee42d9db12fd86-ORD',
+156 silly get     age: '6852',
+156 silly get     'cache-control': 'public, max-age=300',
+156 silly get     etag: '"224b91240f64340b61ab9428386d0844"',
+156 silly get     'last-modified': 'Sun, 02 Feb 2020 11:43:32 GMT',
+156 silly get     vary: 'Accept-Encoding',
+156 silly get     'cf-cache-status': 'HIT',
+156 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+156 silly get     server: 'cloudflare',
+156 silly get     'cf-request-id': '0288c81c280000fd86bc217200000001' } ]
+157 verbose etag https://registry.npmjs.org/@material-ui%2ficons from cache
+158 verbose get saving @material-ui/icons to /home/kasturi/.npm/registry.npmjs.org/_40material-ui_252ficons/.cache.json
+159 silly resolveWithNewModule chart.js@2.9.3 checking installable status
+160 silly cache add args [ 'chart.js@^2.9.3', null ]
+161 verbose cache add spec chart.js@^2.9.3
+162 silly cache add parsed spec Result {
+162 silly cache add   raw: 'chart.js@^2.9.3',
+162 silly cache add   scope: null,
+162 silly cache add   name: 'chart.js',
+162 silly cache add   rawSpec: '^2.9.3',
+162 silly cache add   spec: '>=2.9.3 <3.0.0',
+162 silly cache add   type: 'range' }
+163 silly addNamed chart.js@>=2.9.3 <3.0.0
+164 verbose addNamed ">=2.9.3 <3.0.0" is a valid semver range for chart.js
+165 silly addNameRange { name: 'chart.js', range: '>=2.9.3 <3.0.0', hasData: false }
+166 silly mapToRegistry name chart.js
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+170 verbose addNameRange registry:https://registry.npmjs.org/chart.js not in flight; fetching
+171 verbose get https://registry.npmjs.org/react-router-dom not expired, no request
+172 silly addNameRange number 2 { name: 'react-router-dom',
+172 silly addNameRange   range: '>=5.1.2 <6.0.0',
+172 silly addNameRange   hasData: true }
+173 silly addNameRange versions [ 'react-router-dom',
+173 silly addNameRange   [ '0.0.0',
+173 silly addNameRange     '4.0.0-beta.1',
+173 silly addNameRange     '4.0.0-beta.2',
+173 silly addNameRange     '4.0.0-beta.3',
+173 silly addNameRange     '4.0.0-beta.4',
+173 silly addNameRange     '4.0.0-beta.5',
+173 silly addNameRange     '4.0.0-beta.6',
+173 silly addNameRange     '4.0.0-beta.7',
+173 silly addNameRange     '4.0.0-beta.8',
+173 silly addNameRange     '4.0.0',
+173 silly addNameRange     '4.1.0',
+173 silly addNameRange     '4.1.1',
+173 silly addNameRange     '4.1.2',
+173 silly addNameRange     '4.2.0',
+173 silly addNameRange     '4.2.1',
+173 silly addNameRange     '4.2.2',
+173 silly addNameRange     '4.3.0-rc.1',
+173 silly addNameRange     '4.3.0-rc.2',
+173 silly addNameRange     '4.3.0-rc.3',
+173 silly addNameRange     '4.3.0',
+173 silly addNameRange     '4.3.1',
+173 silly addNameRange     '4.4.0-alpha.0',
+173 silly addNameRange     '4.4.0-alpha.1',
+173 silly addNameRange     '4.4.0-beta.0',
+173 silly addNameRange     '4.4.0-beta.1',
+173 silly addNameRange     '4.4.0-beta.2',
+173 silly addNameRange     '4.4.0-beta.3',
+173 silly addNameRange     '4.4.0-beta.4',
+173 silly addNameRange     '4.4.0-beta.5',
+173 silly addNameRange     '4.4.0-beta.6',
+173 silly addNameRange     '4.4.0-beta.7',
+173 silly addNameRange     '4.4.0-beta.8',
+173 silly addNameRange     '5.0.0',
+173 silly addNameRange     '5.0.1',
+173 silly addNameRange     '5.1.0',
+173 silly addNameRange     '5.1.1',
+173 silly addNameRange     '5.1.2',
+173 silly addNameRange     '6.0.0-alpha.0',
+173 silly addNameRange     '6.0.0-alpha.1',
+173 silly addNameRange     '6.0.0-alpha.2',
+173 silly addNameRange     '6.0.0-alpha.3',
+173 silly addNameRange     '6.0.0-alpha.4' ] ]
+174 silly addNamed react-router-dom@5.1.2
+175 verbose addNamed "5.1.2" is a plain semver version for react-router-dom
+176 verbose get https://registry.npmjs.org/chart.js not expired, no request
+177 silly addNameRange number 2 { name: 'chart.js', range: '>=2.9.3 <3.0.0', hasData: true }
+178 silly addNameRange versions [ 'chart.js',
+178 silly addNameRange   [ '1.0.1-beta.2',
+178 silly addNameRange     '1.0.1',
+178 silly addNameRange     '1.0.2',
+178 silly addNameRange     '1.1.0',
+178 silly addNameRange     '1.1.1',
+178 silly addNameRange     '2.0.0',
+178 silly addNameRange     '2.0.1',
+178 silly addNameRange     '2.0.2',
+178 silly addNameRange     '2.1.0',
+178 silly addNameRange     '2.1.1',
+178 silly addNameRange     '2.1.2',
+178 silly addNameRange     '2.1.3',
+178 silly addNameRange     '2.1.4',
+178 silly addNameRange     '2.1.5',
+178 silly addNameRange     '2.1.6',
+178 silly addNameRange     '2.2.0-rc.1',
+178 silly addNameRange     '2.2.0-rc.2',
+178 silly addNameRange     '2.2.0',
+178 silly addNameRange     '2.2.1',
+178 silly addNameRange     '2.2.2',
+178 silly addNameRange     '2.3.0-rc.1',
+178 silly addNameRange     '2.3.0',
+178 silly addNameRange     '2.4.0',
+178 silly addNameRange     '2.5.0',
+178 silly addNameRange     '2.6.0',
+178 silly addNameRange     '2.7.0',
+178 silly addNameRange     '2.7.1',
+178 silly addNameRange     '2.7.2',
+178 silly addNameRange     '2.7.3',
+178 silly addNameRange     '2.8.0-rc.1',
+178 silly addNameRange     '2.8.0',
+178 silly addNameRange     '2.9.0',
+178 silly addNameRange     '2.9.1',
+178 silly addNameRange     '2.9.2',
+178 silly addNameRange     '2.9.3',
+178 silly addNameRange     '3.0.0-alpha' ] ]
+179 silly addNamed chart.js@2.9.3
+180 verbose addNamed "2.9.3" is a plain semver version for chart.js
+181 verbose stack Error: Missing required argument #1
+181 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+181 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+181 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+181 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+181 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+181 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+181 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+181 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+181 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+181 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+182 verbose cwd /home/kasturi/HomicideAnalysis
+183 error Linux 5.3.0-51-generic
+184 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+185 error node v8.10.0
+186 error npm  v3.5.2
+187 error code EMISSINGARG
+188 error typeerror Error: Missing required argument #1
+188 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+188 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+188 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+188 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+188 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+188 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+188 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+188 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+188 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+188 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+189 error typeerror This is an error with npm itself. Please report this error at:
+189 error typeerror     <http://github.com/npm/npm/issues>
+190 verbose exit [ 1, true ]
