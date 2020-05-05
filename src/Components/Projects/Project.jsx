@@ -10,6 +10,7 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
+import Layout from "../Graphs/Graph1"
 const Project = props => {
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
@@ -91,15 +92,15 @@ href={link} target="_blank" rel="noopener noreferrer">
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
               Modal title
         </DialogTitle>
-            <DialogContent dividers>
-
-              <Typography gutterBottom>
-                Kasturi Put Stuff
-          </Typography>
-            </DialogContent>
-            <DialogActions>
-              <Button autoFocus onClick={handleClose} color="primary">
-                Exit
+        <DialogContent dividers>
+         
+          <Typography gutterBottom>
+          
+<Layout></Layout>          </Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button autoFocus onClick={handleClose} color="primary">
+            Exit
           </Button>
             </DialogActions>
           </Dialog>
@@ -110,3 +111,4 @@ href={link} target="_blank" rel="noopener noreferrer">
 };
 
 export default Project;
+
