@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Switch,Router} from "react-router-dom";
 import Menu from './Components/Menu/Menu';
 import Nav from './Components/Nav/Nav';
 import Header from './Components/Header/Header';
@@ -6,6 +7,8 @@ import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+// import { Switch } from '@material-ui/core';
+// import { Router } from 'react-router-dom';
 
 class App extends Component {
   state = {
@@ -24,15 +27,40 @@ class App extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
-        <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
-        <Header />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </React.Fragment>
+    //   <Router>
+    //   <div>
+    //     <ul>
+    //       <li>
+    //         <Link to="/">App</Link>
+    //       </li>
+        
+    //       <li>
+    //         <Link to="/graphs">Graphs</Link>
+    //       </li>
+    //     </ul>
+
+    //     <Switch>
+    //       <Route path="/">
+          
+    //       </Route>
+    //       <Route path="/graphs">
+    //         <graph1 />
+    //       </Route>
+          
+    //     </Switch>
+    //   </div>
+    // </Router>
+     <React.Fragment>
+     <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
+     <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
+     <Header />
+     <About />
+     <Projects />
+     <Contact />
+     <Footer />
+   </React.Fragment>
+      
+
     );
   }
 
