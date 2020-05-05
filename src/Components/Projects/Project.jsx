@@ -10,6 +10,7 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
+import Layout from "../Graphs/Graph1"
 const Project = props => {
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
@@ -70,7 +71,7 @@ const Project = props => {
       </a>
       <div className="project-details">
         <div className="project-tile">
-          <p className="icons">
+          <p className="icons"> 
            
           </p>
           {props.title}{' '}
@@ -93,8 +94,8 @@ const Project = props => {
         <DialogContent dividers>
          
           <Typography gutterBottom>
-           Kasturi Put Stuff
-          </Typography>
+          
+<Layout></Layout>          </Typography>
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose} color="primary">
@@ -109,3 +110,4 @@ const Project = props => {
 };
 
 export default Project;
+
