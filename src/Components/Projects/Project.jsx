@@ -10,6 +10,7 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
+import Layout from "../Graphs/Graph1"
 const Project = props => {
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
@@ -46,7 +47,7 @@ const Project = props => {
       padding: theme.spacing(2),
     },
   }))(MuiDialogContent);
-  
+
   const DialogActions = withStyles((theme) => ({
     root: {
       margin: 0,
@@ -64,44 +65,45 @@ const Project = props => {
 
   return (
     <div className="project">
-     
-      <a className="project-link" href={link} target="_blank" rel="noopener noreferrer">
+
+      <a className="project-link" h        See The Visaulization
+href={link} target="_blank" rel="noopener noreferrer">
         <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} />
       </a>
       <div className="project-details">
         <div className="project-tile">
           <p className="icons">
-           
+
           </p>
           {props.title}{' '}
         </div>
         {props.children}
         <div className="buttons">
-        {/* <Link to="/">    See the Graph</Link>{' '} */}
-        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-        
-        See The Visaulization
+          {/* <Link to="/">    See the Graph</Link>{' '} */}
+          <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+
+            See The Visaulization
       </Button>
           {/* <a href={repo} target="_blank" rel="noopener noreferrer">
             See the Graph <i className="fas fa-external-link-alt" />
           </a> */}
-          
-      <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
-        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-          Modal title
+
+          <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+            <DialogTitle id="customized-dialog-title" onClose={handleClose}>
+              Modal title
         </DialogTitle>
         <DialogContent dividers>
          
           <Typography gutterBottom>
-           Kasturi Put Stuff
-          </Typography>
+          
+<Layout></Layout>          </Typography>
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose} color="primary">
             Exit
           </Button>
-        </DialogActions>
-      </Dialog>
+            </DialogActions>
+          </Dialog>
         </div>
       </div>
     </div>
@@ -109,3 +111,4 @@ const Project = props => {
 };
 
 export default Project;
+

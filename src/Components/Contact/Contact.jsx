@@ -2,6 +2,9 @@ import React from 'react';
 // import SocialLinks from '../SocialLinks';
 import './Contact.css';
 import Ishita from "../cards/card1.jsx";
+import Kasturi from "../cards/card2.jsx";
+import Manisha from "../cards/card3.jsx";
+
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import FormLabel from '@material-ui/core/FormLabel';
@@ -44,12 +47,12 @@ const Contact = props => {
     
         </Grid>
         <Grid item xl={3} md={3} sm={12} xs={12}>
-      <Paper className={classes.paper}>  <Ishita />
+      <Paper className={classes.paper}>  <Kasturi />
       </Paper>
     
         </Grid>
         <Grid item xl={3} md={3} sm={12} xs={12}>
-      <Paper className={classes.paper}>  <Ishita />
+      <Paper className={classes.paper}>  <Manisha />
       </Paper>
     
         </Grid>

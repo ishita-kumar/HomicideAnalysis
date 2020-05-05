@@ -9,6 +9,8 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Ishi from "../../Images/ishita.jpg";
+
 const useStyles = makeStyles({
   root: {
     // maxWidth: 245,
@@ -29,7 +31,7 @@ export default function Ishita() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={Ishi}
           title="Contemplative Reptile"
         />
         <CardContent>
