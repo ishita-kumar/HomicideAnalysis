@@ -6,7 +6,7 @@ import years from './Data/YearAscendingOrder.json';
 import data from './Data/YearWiseGunViolence.json';
 var Chart = require("chart.js");
 
-class Layout extends React.Component {
+class Graph2 extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -63,4 +63,4 @@ class Layout extends React.Component {
   }
 }
 
-export default Layout;
+export default Graph2;

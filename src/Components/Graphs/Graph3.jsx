@@ -1,12 +1,10 @@
-// import React from 'react';
-// import './About.css';
 
 import React, { Component } from 'react';
 import years from './Data/YearAscendingOrder.json';
 import map from './Data/VictimByRace.json';
 var Chart = require("chart.js");
 
-class Graph1 extends React.Component {
+class Graph3 extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -70,4 +68,4 @@ class Graph1 extends React.Component {
   }
 }
 
-export default Graph1;
+export default Graph3;
