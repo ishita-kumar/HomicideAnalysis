@@ -63,22 +63,7 @@ const Projects = props => {
               messages and replies.
             </p>
           </Project>
-          <Project
-            title="Analysis Report: How to get Away with Murder."
-            img={MsgBoardImg}
-            graphType="4"
-            tech="js css react node"
-            link="https://yagoestevez-anon-msg-board.glitch.me/"
-            repo="https://github.com/yagoestevez/anonymous-message-board"
-          >
-            <small>
-              Analysis Report 
-            </small>
-            <p>
-              This is a full-stack website that I made which lets the users read and post anonymous
-              messages and replies.
-            </p>
-          </Project>
+       
           <Project
             title="Analysis Report: How to get Away with Murder."
             img={gun}
