@@ -20,7 +20,7 @@ const Projects = props => {
             img={usMaps}
             graphType="1"
             tech="js css react node"
-            link="https://yagoestevez-anon-msg-board.glitch.me/"
+            link="https://github.com/ishita-kumar/HomicideAnalysis"
             repo="https://github.com/yagoestevez/anonymous-message-board"
           >
             <small>
@@ -45,7 +45,7 @@ const Projects = props => {
             img={gun}
             graphType="3"
             tech="js css react node"
-            link="https://yagoestevez-anon-msg-board.glitch.me/"
+            link="https://github.com/ishita-kumar/HomicideAnalysis"
             repo="https://github.com/yagoestevez/anonymous-message-board"
           >
             <small>
@@ -59,7 +59,7 @@ const Projects = props => {
             img={howTo}
             graphType="5"
             tech="js css react node"
-            link="https://yagoestevez-anon-msg-board.glitch.me/"
+            link="https://github.com/ishita-kumar/HomicideAnalysis"
             repo="https://github.com/yagoestevez/anonymous-message-board"
           >
             <small>

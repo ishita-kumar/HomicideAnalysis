@@ -11,6 +11,7 @@ import { autoPlay } from 'react-swipeable-views-utils';
 import Img1 from "../../Images/victim1.png";
 import Img2 from "../../Images/victim2.png";
 import Img3 from "../../Images/victim3.png";
+import Img5 from "../../Images/unsolved.jpg";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -27,7 +28,7 @@ const tutorialSteps = [
   {
     label: 'Percentage of unsolved cases with one perp: 0.276869 and Percentage of unsolved cases with multiple perps:  0.002153063221765512',
     imgPath:
-      '',
+      Img5,
   },
   {
     label: 'Random forest to analyze which features are most useful in determining whether a crime is solved or not Perpetrator Sex, Perpetrator Age, Perpetrator Race',
