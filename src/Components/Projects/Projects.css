@@ -10,7 +10,7 @@
 
 #projects a,
 #projects a:visited {
-  color: #f300b4;
+  color: #f30000;
 }
 
 #projects a:hover,
@@ -34,7 +34,7 @@
 }
 
 #projects .heading .separator {
-  background: #f300b4;
+  background: #f30000;
   width: 150px;
   height: 2px;
   margin: 1rem auto;
@@ -98,7 +98,7 @@
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
-  color: #f300b4;
+  color: #f30000;
 }
 
 /* Icons */
@@ -132,7 +132,7 @@
   width: 49%;
   padding: .5rem;
   border: none;
-  border-bottom: 1px solid #f300b4;
+  border-bottom: 1px solid #f30000;
   color: #252934;
   background: #fafafa;
   font-size: 1.2rem;
@@ -140,7 +140,7 @@
 }
 
 #projects .project-details .buttons a:hover {
-  background: #f300b4;
+  background: #f30000;
   color: #fafafa;
 }
 #projects .project-details .buttons i {

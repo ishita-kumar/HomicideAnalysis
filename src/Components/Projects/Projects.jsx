@@ -15,7 +15,7 @@ const Projects = props => {
         </div>
         <div className="projects-wrapper">
           <Project
-            title="Anonymous Message Board."
+            title="State-wise Murder Count over United States"
             img={MsgBoardImg}
             graphType="1"
             tech="js css react node"
