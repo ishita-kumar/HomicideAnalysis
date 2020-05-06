@@ -28,18 +28,17 @@ export default class Mapgraph extends React.Component {
         return (
             <div className={"my-pretty-chart-container"}>
                 <Chart
-                    width={'500px'}
-                    height={'300px'}
+                    width={'850px'}
+                    height={'500px'}
                     chartType="GeoChart"
                     data={this.chartData}
                     options={{
 
                         region: "US",
                         resolution: "provinces",
-                        // colorAxis: { colo rs: ['#00853f', 'black', '#e31b23'] },
-                        backgroundColor: '#81d4fa',
-                        // datalessRegionColor: '#f8bbd0',
-                        defaultColor: '#f5f5f5',
+                        colorAxis: { colors: [ '#F9EBEA', '#E6B0AA', '#EC7063', '#CD5C5C', '#C0392B'] },
+                        backgroundColor: '#A9CCE3',
+                        defaultColor: 'black',
                         tooltip: {isHtml: true},
                     }}
                     // Note: you will need to get a mapsApiKey for your project.

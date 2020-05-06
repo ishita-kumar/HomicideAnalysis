@@ -109,9 +109,9 @@ const Project = props => {
             See the Graph <i className="fas fa-external-link-alt" />
           </a> */}
 
-          <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+          <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open} maxWidth="lg">
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-              <br />
+              {graphType === '1' ? 'State-wise Murder' : 'Ishita has a small dicky'}
         </DialogTitle>
             <DialogContent dividers>
 
