@@ -1,8 +1,10 @@
 import * as React from "react";
 import { render } from "react-dom";
 import { Chart } from "react-google-charts";
+import map from './Data/VictimByRace.json';
 
 export default class Mapgraph extends React.Component {
+
     render() {
         return (
             <div className={"my-pretty-chart-container"}>
@@ -16,12 +18,11 @@ export default class Mapgraph extends React.Component {
                         ['US-IN', 300],
                         ['US-IA', 20],
                         ['US-RI', 150]
-
                     ]}
                     options={{
 
                         region: "US",
-                       resolution: "provinces",
+                        resolution: "provinces",
                         // colorAxis: { colo rs: ['#00853f', 'black', '#e31b23'] },
                         backgroundColor: '#81d4fa',
                         // datalessRegionColor: '#f8bbd0',

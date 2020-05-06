@@ -14,6 +14,7 @@ import Layout from "../Graphs/Graph1";
 import Mapgraph from "../Graphs/Mapgraph"
 
 const Project = props => {
+  const graphType = props.graphType
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
 
@@ -97,7 +98,8 @@ const Project = props => {
             <DialogContent dividers>
 
               <Typography gutterBottom>
-              <Mapgraph/>
+                {graphType === '1' ? <Mapgraph /> : <Layout />}
+              
                 {/* <Layout></Layout>       */}
                     </Typography>
             </DialogContent>

@@ -17,6 +17,7 @@ const Projects = props => {
           <Project
             title="Anonymous Message Board."
             img={MsgBoardImg}
+            graphType="1"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
             repo="https://github.com/yagoestevez/anonymous-message-board"
@@ -33,6 +34,7 @@ const Projects = props => {
             title="Stock Price Checker."
             img={StockPriceImg}
             tech="js node css"
+            graphType="2"
             link="https://yagoestevez-stock-price-checker.glitch.me/"
             repo="https://github.com/yagoestevez/fcc-stock-price-checker"
           >
