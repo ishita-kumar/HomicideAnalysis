@@ -6,7 +6,7 @@ import years from './Data/YearAscendingOrder.json';
 import map from './Data/VictimByRace.json';
 var Chart = require("chart.js");
 
-class Layout extends React.Component {
+class Graph1 extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -23,7 +23,7 @@ class Layout extends React.Component {
       });
       
   }
-  console.log(dataset);
+ 
   var myChart = new Chart(node, {
       type: "bar",
       data: {
@@ -57,6 +57,10 @@ class Layout extends React.Component {
             legend: { position: 'bottom' },
         }
   });
+
+  
+
+
   }
   render() {
     return (
@@ -70,4 +74,4 @@ class Layout extends React.Component {
   }
 }
 
-export default Layout;
+export default Graph1;

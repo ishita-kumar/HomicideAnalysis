@@ -10,7 +10,9 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
-import Layout from "../Graphs/Graph2";
+import BarGraph from "../Graphs/Graph1";
+import LineGraph from "../Graphs/Graph2";
+import PieGraph from "../Graphs/Graph3";
 import Mapgraph from "../Graphs/Mapgraph";
 import Analysis from "../Graphs/Analysis";
 import Paper from '@material-ui/core/Paper';
@@ -112,22 +114,25 @@ const Project = props => {
           <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open} maxWidth="lg">
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
               {
-              graphType === '1' ? 'State-wise Murder' 
-              :graphType === '2'? 'lala' 
-              :graphType === '3'? 'lalala'
-              :'allal'
-
-            
+                graphType === '1' ? 'State-wise Murder Count over United States' 
+                :graphType === '2'? 'Bar graph for Crime Rate by Race' 
+                :graphType === '3'? 'Trend for Gun Violence Crime over the years'
+                :graphType === '4'? 'Solved and Unsolved'
+                : 'default'
             }
        
         </DialogTitle>
             <DialogContent dividers>
-
               <Typography gutterBottom>
-                {graphType === '1' ? <Analysis /> : <Layout />}
-                
-                {/* <Layout></Layout>       */}
-                    </Typography>
+                {
+                  graphType === '1' ? <Mapgraph />
+                  :graphType === '2'? <BarGraph/>
+                  :graphType === '3'? <LineGraph/>
+                  :graphType === '4'? <PieGraph/>
+                  :<LineGraph/>
+
+                }
+                </Typography>
             </DialogContent>
             <DialogActions>
               <Button autoFocus onClick={handleClose} color="primary">
