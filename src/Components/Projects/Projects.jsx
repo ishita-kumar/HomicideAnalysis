@@ -1,22 +1,23 @@
 import React from 'react';
 import Project from './Project';
 import './Projects.css';
-import MsgBoardImg from './Images/AnonMsgBoard.jpg';
-import StockPriceImg from './Images/murder.jpg';
+import usMaps from './Images/usmap.jpg';
+import race from './Images/race.jpg';
+import gun from './Images/gun.jpg';
 
 const Projects = props => {
   return (
     <section id="projects">
       <div className="projects-container">
         <div className="heading">
-          <h3 className="title">Reports</h3>
+          <h3 className="title">Visualizations</h3>
           <p className="separator" />
         
         </div>
         <div className="projects-wrapper">
           <Project
             title="State-wise Murder Count over United States"
-            img={MsgBoardImg}
+            img={usMaps}
             graphType="1"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
@@ -31,8 +32,8 @@ const Projects = props => {
             </p>
           </Project>
           <Project
-            title="Stock Price Checker."
-            img={StockPriceImg}
+            title="Crime Rate by Race"
+            img={race}
             tech="js node css"
             graphType="2"
             link="https://yagoestevez-stock-price-checker.glitch.me/"
@@ -47,8 +48,8 @@ const Projects = props => {
             </p>
           </Project>
           <Project
-            title="Anonymous Message Board."
-            img={MsgBoardImg}
+            title="Gun-Violence Trends"
+            img={gun}
             graphType="3"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
@@ -65,7 +66,7 @@ const Projects = props => {
        
           <Project
             title="Analysis Report: How to get Away with Murder."
-            img={StockPriceImg}
+            img={gun}
             graphType="5"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
