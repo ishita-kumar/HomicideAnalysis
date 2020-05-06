@@ -39,7 +39,7 @@ export default function Manisha() {
             Manisha Kumar
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-           AI -ML  Enthusiast | 
+           AI - ML  Enthusiast | 
            Chocoholic
           </Typography>
         </CardContent>
