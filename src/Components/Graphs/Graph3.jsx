@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
-import years from './Data/YearAscendingOrder.json';
-import map from './Data/VictimByRace.json';
+import pieData from './Data/CrimeSolvedUnsolved.json';
+
 var Chart = require("chart.js");
 
 class Graph3 extends React.Component {
@@ -10,50 +10,27 @@ class Graph3 extends React.Component {
   }
   componentDidMount() {
     const node = this.node;
-    var dataset = [];
-    var colors = ["#caf270", "#2e5468", "#45c490", "#2e5468", "#008d93" ]
-    var c=0;
-    for(var key in map){
-      dataset.push({
-          label: key,
-          backgroundColor: colors[c++],
-          data: map[key]
-      });
+    var labelData = [];
+    var percentageData = [];
+    for(var key in pieData){
+      labelData.push(key);
+      percentageData.push(pieData[key]);
       
-  }
-  console.log(dataset);
+    }
+    console.log(labelData);
+    console.log(percentageData);
   var myChart = new Chart(node, {
-      type: "bar",
+      type: "pie",
       data: {
-        labels: years['Years'], 
-        datasets: dataset
-      },
-      options: {
-        tooltips: {
-          displayColors: true,
-          callbacks:{
-            mode: 'x',
-          },
-        },
-        scales: {
-          xAxes: [{
-            stacked: true,
-            gridLines: {
-              display: false,
-            }
-          }],
-          yAxes: [{
-            stacked: true,
-            ticks: {
-              beginAtZero: true,
-            },
-            type: 'linear',
-          }]
-        },
-            responsive: true,
-            maintainAspectRatio: false,
-            legend: { position: 'bottom' },
-        }
+        labels: labelData , 
+        datasets: [{
+        backgroundColor: [
+          "#2ecc71",
+          "#34495e"
+        ],
+        data: percentageData
+      }]
+      }
   });
   }
   render() {

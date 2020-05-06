@@ -117,6 +117,7 @@ const Project = props => {
                 graphType === '1' ? 'State-wise Murder Count over United States' 
                 :graphType === '2'? 'Bar graph for Crime Rate by Race' 
                 :graphType === '3'? 'Trend for Gun Violence Crime over the years'
+                :graphType === '4'? 'Solved and Unsolved'
                 : 'default'
             }
        
