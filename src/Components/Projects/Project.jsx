@@ -10,10 +10,22 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
-import Layout from "../Graphs/Graph1";
-import Mapgraph from "../Graphs/Mapgraph"
+import Layout from "../Graphs/Graph2";
+import Mapgraph from "../Graphs/Mapgraph";
+
+import Paper from '@material-ui/core/Paper';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+  },
+});
 
 const Project = props => {
+  const graphType = props.graphType
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
 
@@ -65,10 +77,17 @@ const Project = props => {
     setOpen(false);
   };
 
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   return (
     <div className="project">
 
-      <a className="project-link" h See The Visaulization
+      <a className="project-link" See The Visaulization
         href={link} target="_blank" rel="noopener noreferrer">
         <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} />
       </a>
@@ -84,20 +103,29 @@ const Project = props => {
           {/* <Link to="/">    See the Graph</Link>{' '} */}
           <Button variant="outlined" color="primary" onClick={handleClickOpen}>
 
-            See The Visaulization
+            See The Visualization
       </Button>
           {/* <a href={repo} target="_blank" rel="noopener noreferrer">
             See the Graph <i className="fas fa-external-link-alt" />
           </a> */}
 
-          <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+          <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open} maxWidth="lg">
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-              Modal title
+              {
+              graphType === '1' ? 'State-wise Murder' 
+              :graphType === '2'? 'lala' 
+              :graphType === '3'? 'lalala'
+              :'allal'
+
+            
+            }
+       
         </DialogTitle>
             <DialogContent dividers>
 
               <Typography gutterBottom>
-              <Mapgraph/>
+                {graphType === '1' ? <Mapgraph /> : <Layout />}
+                
                 {/* <Layout></Layout>       */}
                     </Typography>
             </DialogContent>

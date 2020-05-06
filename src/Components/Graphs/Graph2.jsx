@@ -2,7 +2,8 @@
 // import './About.css';
 
 import React, { Component } from 'react';
-
+import years from './Data/YearAscendingOrder.json';
+import data from './Data/YearWiseGunViolence.json';
 var Chart = require("chart.js");
 
 class Layout extends React.Component {
@@ -15,11 +16,11 @@ class Layout extends React.Component {
     var myChart = new Chart(node, {
       type: "line",
       data: {
-        labels: ["<  1","1 - 2","3 - 4","5 - 9","10 - 14","15 - 19","20 - 24","25 - 29","> - 29"],      
+        labels: years['Years'],      
           datasets: [{
-              label: 'Employee',
+              label: 'Crime rate for gun violence',
               backgroundColor: "#caf270",
-              data: [12, 59, 5, 56, 58,12, 59, 87, 45],
+              data: data ,
           }],
       },
       options: {

@@ -17,6 +17,7 @@ const Projects = props => {
           <Project
             title="Anonymous Message Board."
             img={MsgBoardImg}
+            graphType="1"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
             repo="https://github.com/yagoestevez/anonymous-message-board"
@@ -33,6 +34,7 @@ const Projects = props => {
             title="Stock Price Checker."
             img={StockPriceImg}
             tech="js node css"
+            graphType="2"
             link="https://yagoestevez-stock-price-checker.glitch.me/"
             repo="https://github.com/yagoestevez/fcc-stock-price-checker"
           >
@@ -44,7 +46,38 @@ const Projects = props => {
               market.
             </p>
           </Project>
-         
+          <Project
+            title="Anonymous Message Board."
+            img={MsgBoardImg}
+            graphType="3"
+            tech="js css react node"
+            link="https://yagoestevez-anon-msg-board.glitch.me/"
+            repo="https://github.com/yagoestevez/anonymous-message-board"
+          >
+            <small>
+              Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
+            </small>
+            <p>
+              This is a full-stack website that I made which lets the users read and post anonymous
+              messages and replies.
+            </p>
+          </Project>
+          <Project
+            title="Analysis Report: How to get Away with Murder."
+            img={MsgBoardImg}
+            graphType="4"
+            tech="js css react node"
+            link="https://yagoestevez-anon-msg-board.glitch.me/"
+            repo="https://github.com/yagoestevez/anonymous-message-board"
+          >
+            <small>
+              Analysis Report 
+            </small>
+            <p>
+              This is a full-stack website that I made which lets the users read and post anonymous
+              messages and replies.
+            </p>
+          </Project>
         </div>
       </div>
     </section>
