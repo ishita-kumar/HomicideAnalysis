@@ -103,7 +103,8 @@ const Project = props => {
         {props.children}
         <div className="buttons">
           {/* <Link to="/">    See the Graph</Link>{' '} */}
-          <Button variant="outlined" color="#0E0302" onClick={handleClickOpen}>
+        <br/>
+        <Button variant="outlined" color="#0E0302" onClick={handleClickOpen}>
 
         Open<i className="fas fa-external-link-alt" />
       </Button>
