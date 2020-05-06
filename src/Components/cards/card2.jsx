@@ -32,23 +32,23 @@ export default function Manisha() {
         <CardMedia
           className={classes.media}
           image={Mani}
-          title="Contemplative Reptile"
+          title="Manisha Suresh"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Manisha Kumar
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-           Full Stack Web Developer | 
-           Sushi lover
+           AI -ML  Enthusiast | 
+           Chocoholic
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://github.com/manishask112">
           <GitHubIcon/>
         </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://www.linkedin.com/in/manisha-suresh-kumar-83b569bb/">
         <LinkedInIcon/>
         </Button>
       </CardActions>

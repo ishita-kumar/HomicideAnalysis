@@ -87,7 +87,7 @@ const Project = props => {
   return (
     <div className="project">
 
-      <a className="project-link" h See The Visaulization
+      <a className="project-link" See The Visaulization
         href={link} target="_blank" rel="noopener noreferrer">
         <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} />
       </a>
@@ -103,7 +103,7 @@ const Project = props => {
           {/* <Link to="/">    See the Graph</Link>{' '} */}
           <Button variant="outlined" color="primary" onClick={handleClickOpen}>
 
-            See The Visaulization
+            See The Visualization
       </Button>
           {/* <a href={repo} target="_blank" rel="noopener noreferrer">
             See the Graph <i className="fas fa-external-link-alt" />
@@ -111,7 +111,15 @@ const Project = props => {
 
           <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open} maxWidth="lg">
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-              {graphType === '1' ? 'State-wise Murder' : 'Ishita has a small dicky'}
+              {
+              graphType === '1' ? 'State-wise Murder' 
+              :graphType === '2'? 'lala' 
+              :graphType === '3'? 'lalala'
+              :'allal'
+
+            
+            }
+       
         </DialogTitle>
             <DialogContent dividers>
 

@@ -32,7 +32,7 @@ export default function Ishita() {
         <CardMedia
           className={classes.media}
           image={Ishi}
-          title="Contemplative Reptile"
+          title="Ishita Kumar"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -45,12 +45,14 @@ export default function Ishita() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+       
+        <Button size="small" color="primary" href="https://github.com/ishita-kumar/" >
           <GitHubIcon/>
         </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://www.linkedin.com/in/ishitakumar96/">
         <LinkedInIcon/>
         </Button>
+    
       </CardActions>
     </Card>
   );

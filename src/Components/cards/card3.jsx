@@ -32,23 +32,23 @@ export default function Kasturi() {
         <CardMedia
           className={classes.media}
           image={Kasy}
-          title="Contemplative Reptile"
+          title="Kasturi Nikharge"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Ishita Kumar
+            Kasturi Nikharge
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-           Full Stack Web Developer | 
-           Sushi lover
+           Java Developer | 
+           Loves to Nap
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://github.com/knikharg">
           <GitHubIcon/>
         </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://www.linkedin.com/in/kasturi-nikharge/">
         <LinkedInIcon/>
         </Button>
       </CardActions>
