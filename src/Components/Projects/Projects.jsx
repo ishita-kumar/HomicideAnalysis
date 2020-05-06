@@ -4,6 +4,7 @@ import './Projects.css';
 import usMaps from './Images/usmap.jpg';
 import race from './Images/race.jpg';
 import gun from './Images/gun.jpg';
+import howTo from './Images/howto.jpg';
 
 const Projects = props => {
   return (
@@ -12,7 +13,6 @@ const Projects = props => {
         <div className="heading">
           <h3 className="title">Visualizations</h3>
           <p className="separator" />
-        
         </div>
         <div className="projects-wrapper">
           <Project
@@ -66,7 +66,7 @@ const Projects = props => {
        
           <Project
             title="Analysis Report: How to get Away with Murder."
-            img={gun}
+            img={howTo}
             graphType="5"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
