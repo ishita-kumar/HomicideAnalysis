@@ -24,12 +24,9 @@ const Projects = props => {
             repo="https://github.com/yagoestevez/anonymous-message-board"
           >
             <small>
-              Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
+            State-wise Murder Count over United States spanned over the years 1980-2014. To highlight the states with highest and lowest homicide rate. Further divided into Slaughter by Neglience and Murder or Manslaughter.
             </small>
-            <p>
-              This is a full-stack website that I made which lets the users read and post anonymous
-              messages and replies.
-            </p>
+            
           </Project>
           <Project
             title="Crime Rate by Race"
@@ -40,12 +37,8 @@ const Projects = props => {
             repo="https://github.com/yagoestevez/fcc-stock-price-checker"
           >
             <small>
-              Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug.
+            Race and Crime seem to be a perpetual public controversial topic in America. According to the Federal Bureau of Investigation Uniform Crime Report database, 48% of all hate crime offenders were motivated by the victim's race.
             </small>
-            <p>
-              Another full-stack website to check the current value of any requested stock in the
-              market.
-            </p>
           </Project>
           <Project
             title="Gun-Violence Trends"
@@ -56,12 +49,9 @@ const Projects = props => {
             repo="https://github.com/yagoestevez/anonymous-message-board"
           >
             <small>
-              Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
+            Shooting has long been the most common cause of death in homicide cases worldwide. Years between 1990 to 1994 peaked in gun violence and nearly 30 % percent of gun violence related homicide went unsolved.
             </small>
-            <p>
-              This is a full-stack website that I made which lets the users read and post anonymous
-              messages and replies.
-            </p>
+            
           </Project>
        
           <Project
@@ -73,12 +63,9 @@ const Projects = props => {
             repo="https://github.com/yagoestevez/anonymous-message-board"
           >
             <small>
-              Analysis Report 
+            Focuses on analysing the trends in murders that have gone unsolved. Perpretators Age, race and sex seem to have to most influence on the murders being unsolved
             </small>
-            <p>
-              This is a full-stack website that I made which lets the users read and post anonymous
-              messages and replies.
-            </p>
+            
           </Project>
         </div>
       </div>
