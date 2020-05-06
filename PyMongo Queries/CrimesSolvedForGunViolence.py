@@ -4,14 +4,18 @@ import json
 myclient = pymongo.MongoClient("mongodb+srv://msureshk:siOXurHh2olz0LAh@cluster0-541iz.mongodb.net/test?retryWrites=true&w=majority")
 
 mydb = myclient["HomicideAnalysis"]
-print(myclient.list_database_names())
+# print(myclient.list_database_names())
 Crime,Agency = mydb["Crime"],mydb["Agency"]
 mydoc = Crime.aggregate([
     {"$group" : {
         "_id": {
-            "Crime Solved": "$Crime Solved"
+            "Crime Solved": "$Crime Solved",
+            "Weapon": "$Weapon"
         },
         "TotalCrime": { "$sum": 1 }
+    }},
+    {"$match" : {
+        "_id.Weapon" : {"$in" : ["Handgun","Gun","Rifle","Shotgun"]}
     }},
     {"$match" : {
         "_id.Crime Solved" : {"$in" : ["Yes","No"]}
@@ -29,5 +33,5 @@ for document in mydoc:
     else:
         unsolved = document["CrimeSolvedUnsolved"]
 print(totalCrime,solved,unsolved)
-with open('CrimeSolvedUnsolved.json', 'w') as file:
-    json.dump({"Solved" : round((solved/totalCrime)*100) , "Unsolved" : round((unsolved/totalCrime)*100)}, file)
+with open('CrimSolvedForGunViolence.json', 'w') as file:
+        json.dump({"Solved" : round((solved/totalCrime)*100) , "Unsolved" : round((unsolved/totalCrime)*100)}, file)
