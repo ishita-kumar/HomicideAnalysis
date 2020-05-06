@@ -10,7 +10,7 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
-import Layout from "../Graphs/Graph1";
+import Layout from "../Graphs/Graph2";
 import Mapgraph from "../Graphs/Mapgraph";
 
 import Paper from '@material-ui/core/Paper';
