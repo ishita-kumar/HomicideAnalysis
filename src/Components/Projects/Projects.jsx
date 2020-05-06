@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import './Projects.css';
 import MsgBoardImg from './Images/AnonMsgBoard.jpg';
-import StockPriceImg from './Images/StockPriceChecker.jpg';
+import StockPriceImg from './Images/murder.jpg';
 
 const Projects = props => {
   return (
@@ -80,7 +80,7 @@ const Projects = props => {
           </Project>
           <Project
             title="Analysis Report: How to get Away with Murder."
-            img={MsgBoardImg}
+            img={StockPriceImg}
             graphType="5"
             tech="js css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
