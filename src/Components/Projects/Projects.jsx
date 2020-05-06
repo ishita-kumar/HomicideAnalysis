@@ -4,7 +4,7 @@ import './Projects.css';
 import usMaps from './Images/usmap.jpg';
 import race from './Images/race.jpg';
 import gun from './Images/gun.jpg';
-import howTo from './Images/howto.jpg';
+import howTo from './Images/man.jpeg';
 
 const Projects = props => {
   return (
