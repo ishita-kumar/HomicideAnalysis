@@ -34,11 +34,7 @@
 }
 
 #projects .heading .separator {
-<<<<<<< HEAD
-  background: #F12610;
-=======
   background: #f30000;
->>>>>>> 968557b5692b1b4d0865479909287d0d53c97551
   width: 150px;
   height: 2px;
   margin: 1rem auto;
