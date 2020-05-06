@@ -4,7 +4,7 @@ We provide a visually aided analysis of this with homicide statistics obtained b
 
 Hosted website is aavailable at https://homicide-analysis.web.app/
 
-## To locally run 
+## To run locally 
 
 > git clone https://github.com/ishita-kumar/HomicideAnalysis.git
 
