@@ -11,7 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
 import Layout from "../Graphs/Graph1";
-import Mapgraph from "../Graphs/Mapgraph"
+import Mapgraph from "../Graphs/Mapgraph";
 
 const Project = props => {
   const link = props.link || 'http://';
@@ -97,8 +97,7 @@ const Project = props => {
             <DialogContent dividers>
 
               <Typography gutterBottom>
-              <Mapgraph/>
-                {/* <Layout></Layout>       */}
+                 <Layout></Layout>       
                     </Typography>
             </DialogContent>
             <DialogActions>
