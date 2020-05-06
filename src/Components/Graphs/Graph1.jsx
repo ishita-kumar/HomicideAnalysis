@@ -13,7 +13,7 @@ class Graph1 extends React.Component {
   componentDidMount() {
     const node = this.node;
     var dataset = [];
-    var colors = ["#caf270", "#2e5468", "#45c490", "#2e5468", "#008d93" ]
+    var colors = ["#E39F0C", "#caf270", "#45c490", "#2e5468", "#008d93" ]
     var c=0;
     for(var key in map){
       dataset.push({
