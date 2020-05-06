@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.5a8d0595.chunk.css",
-  "main.js": "/static/js/main.43a37d6a.chunk.js",
-  "main.js.map": "/static/js/main.43a37d6a.chunk.js.map",
+  "main.css": "/static/css/main.74476cb3.chunk.css",
+  "main.js": "/static/js/main.f999b414.chunk.js",
+  "main.js.map": "/static/js/main.f999b414.chunk.js.map",
   "static/js/1.7c83679c.chunk.js": "/static/js/1.7c83679c.chunk.js",
   "static/js/1.7c83679c.chunk.js.map": "/static/js/1.7c83679c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -13,8 +13,8 @@
   "static/media/kasturi.jpeg": "/static/media/kasturi.b3a79703.jpeg",
   "static/media/Header.css": "/static/media/Silhouette.dc4d5293.svg",
   "static/media/Contact.css": "/static/media/envelope.b0ec457f.svg",
-  "static/css/main.5a8d0595.chunk.css.map": "/static/css/main.5a8d0595.chunk.css.map",
+  "static/css/main.74476cb3.chunk.css.map": "/static/css/main.74476cb3.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d522484d2d7e0d6be9a68b22530364a5.js": "/precache-manifest.d522484d2d7e0d6be9a68b22530364a5.js",
+  "precache-manifest.0785067f10e94234bcf36585d56c78d1.js": "/precache-manifest.0785067f10e94234bcf36585d56c78d1.js",
   "service-worker.js": "/service-worker.js"
 }
