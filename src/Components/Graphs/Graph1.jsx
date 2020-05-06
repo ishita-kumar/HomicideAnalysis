@@ -23,7 +23,7 @@ class Graph1 extends React.Component {
       });
       
   }
-  console.log(dataset);
+ 
   var myChart = new Chart(node, {
       type: "bar",
       data: {
@@ -57,6 +57,10 @@ class Graph1 extends React.Component {
             legend: { position: 'bottom' },
         }
   });
+
+  
+
+
   }
   render() {
     return (

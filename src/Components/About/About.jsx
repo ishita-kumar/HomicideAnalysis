@@ -6,20 +6,17 @@ const About = props => {
     <section id="about">
       <div className="wrapper">
         <article>
-          <div className="title">
-            <h3>About Project</h3>
-            <p className="separator" />
-          </div>
           <div className="desc full">
             <h4 className="subtitle">Homicide Analysis</h4>
             <p>
-              I am a web developer and UX designer based in the beautiful west coast of Spain,
-              Galicia.
+            After World War II, crime rates increased in the United States, peaking from the 1980s to the early-1990s. Violent crime nearly quadrupled between 1960 and peaked around 1991. Since the 1990s, however, contrary to popular belief, crime in the United States has declined steadily. 
             </p>
-           
+            <p>
+            We provide a visually aided analysis of this with homicide statistics obtained between the years 1980 - 2014 showing a state - wise crime rate over these years and some deeper investigation into race - based crime and gun violence.
+            </p>
           </div>
          
-          <div className="desc">
+          {/* <div className="desc">
             <h4 className="subtitle">Visualizations </h4>
             <p>
              ALLALALLALALA
@@ -36,7 +33,7 @@ const About = props => {
             <p>
              ANNAN
             </p>
-          </div>
+          </div> */}
         </article>
       </div>
     </section>

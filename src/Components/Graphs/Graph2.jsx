@@ -50,6 +50,11 @@ class Graph2 extends React.Component {
             legend: { position: 'bottom' },
         }
   });
+
+
+
+
+
   }
   render() {
     return (

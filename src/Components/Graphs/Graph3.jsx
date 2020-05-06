@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import pieData from './Data/CrimeSolvedUnsolved.json';
 
@@ -17,8 +16,6 @@ class Graph3 extends React.Component {
       percentageData.push(pieData[key]);
       
     }
-    console.log(labelData);
-    console.log(percentageData);
   var myChart = new Chart(node, {
       type: "pie",
       data: {
