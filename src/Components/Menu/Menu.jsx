@@ -15,21 +15,19 @@ const Menu = props => {
           </li>
           <li>
             <a href="#about" onClick={props.toggleMenu}>
-              ABOUT
+              ABOUT PROJECT
             </a>
           </li>
           <li>
             <a href="#projects" onClick={props.toggleMenu}>
-              PORTFOLIO
+              ANALYSIS
             </a>
           </li>
           <li>
             <a href="#contact" onClick={props.toggleMenu}>
-              CONTACT
-            </a>
+              TEAM            </a>
           </li>
         </ul>
-        <SocialLinks />
       </div>
     </div>
   );

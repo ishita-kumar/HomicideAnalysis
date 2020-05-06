@@ -38,14 +38,11 @@ const About = props => {
                 <li> State-Wise Depiction of Homicide</li>
                 <li> Crime Rate by Race</li>
                 <li> Gun Violence Crime over the years</li>
-                <li>Solved and Unsolved Homicides</li>
-                <li></li>
+                <li>A brief anlysis on Unsolved Murders</li>
                               </ul>
            
             </p>
-            <p>
-              BLALALAL
-            </p>
+           
           </div>
         
         </article>
