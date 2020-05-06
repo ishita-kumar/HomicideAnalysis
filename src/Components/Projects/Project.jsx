@@ -12,7 +12,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
 import Layout from "../Graphs/Graph2";
 import Mapgraph from "../Graphs/Mapgraph";
-
+import Analysis from "../Graphs/Analysis";
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -101,9 +101,9 @@ const Project = props => {
         {props.children}
         <div className="buttons">
           {/* <Link to="/">    See the Graph</Link>{' '} */}
-          <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+          <Button variant="outlined" color="#0E0302" onClick={handleClickOpen}>
 
-            See The Visualization
+        Open<i className="fas fa-external-link-alt" />
       </Button>
           {/* <a href={repo} target="_blank" rel="noopener noreferrer">
             See the Graph <i className="fas fa-external-link-alt" />
@@ -124,7 +124,7 @@ const Project = props => {
             <DialogContent dividers>
 
               <Typography gutterBottom>
-                {graphType === '1' ? <Mapgraph /> : <Layout />}
+                {graphType === '1' ? <Analysis /> : <Layout />}
                 
                 {/* <Layout></Layout>       */}
                     </Typography>

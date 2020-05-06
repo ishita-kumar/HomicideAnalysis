@@ -8,7 +8,7 @@ import states from './Data/US-States'
 export default class Mapgraph extends React.Component {
     constructor(props) {
         super(props);
-        this.chartData = [['State', 'Victim Count', {role: 'tooltip', p:{html:true}}]]
+        this.chartData = [['State', 'Victim Count', { role: 'tooltip', p: { html: true } }]]
     }
 
     componentDidMount() {
@@ -36,10 +36,10 @@ export default class Mapgraph extends React.Component {
 
                         region: "US",
                         resolution: "provinces",
-                        colorAxis: { colors: [ '#F9EBEA', '#E6B0AA', '#EC7063', '#CD5C5C', '#C0392B'] },
+                        colorAxis: { colors: ['#F9EBEA', '#E6B0AA', '#EC7063', '#CD5C5C', '#C0392B'] },
                         backgroundColor: '#A9CCE3',
                         defaultColor: 'black',
-                        tooltip: {isHtml: true},
+                        tooltip: { isHtml: true },
                     }}
                     // Note: you will need to get a mapsApiKey for your project.
                     // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings

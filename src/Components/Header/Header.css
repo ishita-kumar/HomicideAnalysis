@@ -160,14 +160,14 @@
 
 #welcome-section .container .buttons a:hover,
 #welcome-section .container .buttons a:active {
-  border: 1px solid #f300b4;
+  border: 1px solid #F12610;
   transform: translateY(-2px);
-  box-shadow: 0 10px 100px -20px #f300b4;
+  box-shadow: 0 10px 100px -20px #F12610;
 }
 
 #welcome-section .container .buttons a.cta,
 #welcome-section .container .buttons a.cta:visited {
-  background: #f300b4;
+  background: #F12610;
   border: 1px solid transparent;
   color: #fafafa;
   font-weight: bold;
@@ -176,7 +176,7 @@
 #welcome-section .container .buttons a.cta:hover,
 #welcome-section .container .buttons a.cta:active {
   background: transparent;
-  border: 1px solid #f300b4;
+  border: 1px solid #F12610;
 }
 
 #welcome-section .container .buttons a:first-child {
@@ -188,7 +188,7 @@
 }
 
 .color {
-  color: #f300b4;
+  color: #F12610;
   font-style: italic;
 }
 

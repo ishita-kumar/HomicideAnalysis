@@ -63,7 +63,7 @@
 .menu-button:hover > span,
 .menu-button:hover > span::before,
 .menu-button:hover > span::after {
-  background: #f300b4;
+  background: #F12610;
 }
 
 .menu-button.active > span  {

@@ -29,7 +29,7 @@
 }
 
 #contact .heading-wrapper .social a:hover {
-  color: #f300b4;
+  color: #F12610;
 }
 
 .heading-wrapper .heading .title {
@@ -38,7 +38,7 @@
 }
 
 .heading-wrapper .heading .separator {
-  background: #f300b4;
+  background: #F12610;
   width: 150px;
   height: 2px;
   margin: 1rem 0;
@@ -79,11 +79,11 @@ input[type="email"]:focus,
 input[type="text"]:not(output):focus,
 input[type="email"]:not(output):focus,
 textarea:focus {
-  border-bottom: 1px solid #f300b4;
+  border-bottom: 1px solid #F12610;
 }
 
 input[type="submit"] {
-  background: #f300b4;
+  background: #F12610;
   color: #fafafa;
   margin-top: 1rem;
   width: auto;
@@ -110,7 +110,7 @@ input[type="submit"]:focus {
 .mail .at, .mail .dot {
   font-size: .9rem;
   margin: 0 .1rem;
-  color: #f300b4;
+  color: #F12610;
 }
 
 
