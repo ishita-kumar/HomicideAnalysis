@@ -129,6 +129,7 @@ const Project = props => {
                   :graphType === '2'? <BarGraph/>
                   :graphType === '3'? <LineGraph/>
                   :graphType === '4'? <PieGraph/>
+                  :graphType === '5'? <Analysis/>
                   :<LineGraph/>
 
                 }

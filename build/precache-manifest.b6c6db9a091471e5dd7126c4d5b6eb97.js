@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "f999b414b191ad72fbc5",
-    "url": "/static/css/main.74476cb3.chunk.css"
+    "revision": "daf3e08395127fd696c4",
+    "url": "/static/css/main.f73bdc0a.chunk.css"
   },
   {
-    "revision": "f999b414b191ad72fbc5",
-    "url": "/static/js/main.f999b414.chunk.js"
+    "revision": "daf3e08395127fd696c4",
+    "url": "/static/js/main.daf3e083.chunk.js"
   },
   {
-    "revision": "7c83679cf85ebc6b9a7f",
-    "url": "/static/js/1.7c83679c.chunk.js"
+    "revision": "8542e8e0657d78cb820b",
+    "url": "/static/js/1.8542e8e0.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,8 +20,12 @@ self.__precacheManifest = [
     "url": "/static/media/AnonMsgBoard.7dfebdf4.jpg"
   },
   {
-    "revision": "e6e964730b9123fdfb01594de2152f9a",
-    "url": "/static/media/StockPriceChecker.e6e96473.jpg"
+    "revision": "b0265719cf15c7bbb667930f1d928468",
+    "url": "/static/media/howto.b0265719.jpg"
+  },
+  {
+    "revision": "ccef7038ece63f2110113a862d45e6c7",
+    "url": "/static/media/victim3.ccef7038.png"
   },
   {
     "revision": "95cdecad9d4013d260d5c97738d63fc4",
@@ -52,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/envelope.b0ec457f.svg"
   },
   {
-    "revision": "5fae2b079936c7a496539415302f6c57",
+    "revision": "37404751125c76ead65046ede7f61d08",
     "url": "/index.html"
   }
 ];
