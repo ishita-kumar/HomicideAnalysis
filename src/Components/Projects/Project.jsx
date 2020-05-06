@@ -11,7 +11,18 @@ import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
 import Layout from "../Graphs/Graph1";
-import Mapgraph from "../Graphs/Mapgraph"
+import Mapgraph from "../Graphs/Mapgraph";
+
+import Paper from '@material-ui/core/Paper';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+  },
+});
 
 const Project = props => {
   const graphType = props.graphType
@@ -66,6 +77,13 @@ const Project = props => {
     setOpen(false);
   };
 
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   return (
     <div className="project">
 
@@ -93,13 +111,13 @@ const Project = props => {
 
           <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-              Modal title
+              <br />
         </DialogTitle>
             <DialogContent dividers>
 
               <Typography gutterBottom>
                 {graphType === '1' ? <Mapgraph /> : <Layout />}
-              
+                
                 {/* <Layout></Layout>       */}
                     </Typography>
             </DialogContent>
